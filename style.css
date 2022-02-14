@@ -1,0 +1,19 @@
+/* font import */
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap"); /* roboto */
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #2D0052;
+}
+.center {
+  width: 100%;
+  padding-top: 20%;
+}
+h1 {
+  text-align: center;
+  font-family: roboto, "san serif";
+  color: wheat;
+  letter-spacing: 5px;
+}
