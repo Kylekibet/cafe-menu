@@ -5,15 +5,37 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #2D0052;
+  background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+}
+.menu {
+  margin-top: 3%;
+  background-color: gainsboro;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  max-width: 1000px;
+}
+
+.center-text {
+  text-align: center;
+}
+.italize {
+  font-style: italic;
 }
 .center {
   width: 100%;
   padding-top: 20%;
 }
+
+hr {
+  height: 3px;
+  background-color: black;
+  border-style: none;
+}
 h1 {
   text-align: center;
   font-family: roboto, "san serif";
-  color: wheat;
+  color: black;
   letter-spacing: 5px;
 }
