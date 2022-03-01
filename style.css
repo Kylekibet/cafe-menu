@@ -1,5 +1,7 @@
 /* font import */
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap"); /* roboto */
+@import url("https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap"); /* syne mono */
+@import url("https://fonts.googleapis.com/css2?family=Syne+Mono&family=Titillium+Web:ital@1&display=swap"); /* Titillium Web */
 
 body {
   margin: 0;
@@ -20,8 +22,8 @@ body {
 .center-text {
   text-align: center;
 }
-.italize {
-  font-style: italic;
+.est {
+  font-family: "Titillium Web", "sans-serif";
 }
 .center {
   width: 100%;
@@ -35,7 +37,7 @@ hr {
 }
 h1 {
   text-align: center;
-  font-family: roboto, "san serif";
+  font-family: "syne mono", "san serif";
   color: black;
   letter-spacing: 5px;
 }
