@@ -27,7 +27,7 @@ body {
 }
 .center {
   width: 100%;
-  padding-top: 20%;
+  text-align: center;
 }
 
 hr {
@@ -35,9 +35,39 @@ hr {
   background-color: black;
   border-style: none;
 }
+
+/* font style */
+h1,
+h2 {
+  font-family: "syne mono", "san serif";
+}
 h1 {
   text-align: center;
-  font-family: "syne mono", "san serif";
   color: black;
   letter-spacing: 5px;
+}
+
+.icon {
+  width: 50px;
+  margin-top: -20px;
+}
+
+article p {
+  display: inline-block;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  font-size: 18px;
+}
+
+.flavor {
+  text-align: left;
+  width: 74%;
+}
+.price {
+  text-align: right;
+  width: 24%;
+}
+
+footer p {
+  font-size: 12px;
 }
